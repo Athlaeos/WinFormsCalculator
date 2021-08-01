@@ -1,0 +1,10 @@
+C:\Users\jobko\source\repos\VitaeCalculator\bin\Debug\VitaeCalculator.exe.config
+C:\Users\jobko\source\repos\VitaeCalculator\bin\Debug\VitaeCalculator.exe
+C:\Users\jobko\source\repos\VitaeCalculator\bin\Debug\VitaeCalculator.pdb
+C:\Users\jobko\source\repos\VitaeCalculator\obj\Debug\VitaeCalculator.csprojAssemblyReference.cache
+C:\Users\jobko\source\repos\VitaeCalculator\obj\Debug\VitaeCalculator.Form1.resources
+C:\Users\jobko\source\repos\VitaeCalculator\obj\Debug\VitaeCalculator.Properties.Resources.resources
+C:\Users\jobko\source\repos\VitaeCalculator\obj\Debug\VitaeCalculator.csproj.GenerateResource.cache
+C:\Users\jobko\source\repos\VitaeCalculator\obj\Debug\VitaeCalculator.csproj.CoreCompileInputs.cache
+C:\Users\jobko\source\repos\VitaeCalculator\obj\Debug\VitaeCalculator.exe
+C:\Users\jobko\source\repos\VitaeCalculator\obj\Debug\VitaeCalculator.pdb
