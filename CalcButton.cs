@@ -1,12 +1,14 @@
-﻿using System.Drawing;
+﻿using System.Collections.ObjectModel;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace VitaeCalculator
 {
     public abstract class CalcButton
     {
-        private Control Control { get; set; }
-        protected string Name { get; set; }
+        private Control Control { get; }
+        private string Name { get; }
+        protected Collection<char> IllegalCharacters { get; set; } = new Collection<char>();
 
         protected CalcButton(string name, Point position, Size size)
         {
@@ -29,6 +31,11 @@ namespace VitaeCalculator
         public Control GetControl()
         {
             return Control;
+        }
+
+        public Collection<char> GetIllegalCharacters()
+        {
+            return IllegalCharacters;
         }
     }
 }

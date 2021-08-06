@@ -47,7 +47,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Buttons\AddButton.cs" />
+    <Compile Include="Buttons\BracketButton.cs" />
+    <Compile Include="Buttons\ClearButton.cs" />
+    <Compile Include="Buttons\DivisionButton.cs" />
+    <Compile Include="Buttons\EqualsButton.cs" />
+    <Compile Include="Buttons\MinusButton.cs" />
     <Compile Include="Buttons\NumberButton.cs" />
+    <Compile Include="Buttons\TimesButton.cs" />
     <Compile Include="CalcButton.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
