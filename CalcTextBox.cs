@@ -4,25 +4,22 @@ using System.Windows.Forms;
 
 namespace VitaeCalculator
 {
-    public abstract class CalcButton
+    public class CalcTextBox
     {
         private Control Control { get; }
         private string Name { get; }
-        protected Collection<char> IllegalCharacters { get; set; } = new Collection<char>();
+        protected readonly Collection<char> LegalCharacters = new Collection<char>();
 
-        protected CalcButton(string name, Point position, Size size)
+        public CalcTextBox(string name, Point position, Size size)
         {
             Name = name;
             
-            Control = new Button();
+            Control = new TextBox();
             Control.Name = name;
             Control.Size = size;
-            Control.Text = name;
             Control.Location = position;
         }
-
-        public abstract void OnClick(CalcLayout layout);
-
+        
         public string GetName()
         {
             return Name;
@@ -31,11 +28,6 @@ namespace VitaeCalculator
         public Control GetControl()
         {
             return Control;
-        }
-
-        public Collection<char> GetIllegalCharacters()
-        {
-            return IllegalCharacters;
         }
     }
 }

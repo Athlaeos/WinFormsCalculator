@@ -14,9 +14,10 @@ namespace VitaeCalculator.Buttons
             IllegalCharacters = new Collection<char>();
         }
 
-        public override void OnClick(TextBox box)
+        public override void OnClick(CalcLayout box)
         {
-            box.Text = box.Text = "";
+            var textBox = (TextBox) box.GetRegisteredTextBoxes()["ioBox"].GetControl();
+            textBox.Text = textBox.Text = "";
         }
     }
 }
